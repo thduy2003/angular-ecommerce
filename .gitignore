@@ -6,11 +6,15 @@
 /out-tsc
 /bazel-out
 
+src/environments/*.ts
+src/environments/*.prod.ts
+src/environments/*.stag.ts
+src/environments/*.dev.ts
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
-
+/environment
 # IDEs and editors
 .idea/
 .project
@@ -40,3 +44,4 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
